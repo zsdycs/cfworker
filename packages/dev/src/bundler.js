@@ -57,7 +57,7 @@ export class Bundler extends EventEmitter {
           // verbosity: 3,
           tsconfigOverride: {
             compilerOptions: {
-              rootDir: '/'
+              rootDir: process.cwd(),
             }
           }
         })
